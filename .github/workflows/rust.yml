@@ -13,7 +13,7 @@ env:
   CARGO_TERM_COLOR: always
   TZ: Asia/Shanghai # 设置时区
   API_URL: "aHR0cHM6Ly9hcGkub3BlbmNhbXAuY24vd2ViL2FwaS9jb3Vyc2VSYW5rL2NyZWF0ZUJ5VGhpcmRUb2tlbg=="
-  TOKEN: "bXJua242eXp0NXFUYm9DR1ZEb25QOWIzU2lNQ0hw"
+  TOKEN: "MGM4ZDVjZmVjNzA3NDM1YWI0NzE4ZGRjOTA4MjkxYzU="
   
 jobs:
   build:
@@ -51,7 +51,7 @@ jobs:
         # 生成新的 JSON 内容
         new_json=$(jq -n \
           --arg channel "github" \
-          --argjson courseId 1528 \
+          --argjson courseId 1854 \
           --arg ext "aaa" \
           --arg name "$github_user" \
           --argjson score "$total_succeeds" \
